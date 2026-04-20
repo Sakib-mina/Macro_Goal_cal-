@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GoalButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/_60sdp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/bg_input_field</item>
+        <item name="android:textColor">#8E9199</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MacroCardStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_100sdp</item>
+        <item name="android:padding">@dimen/_15sdp</item>
+    </style>
+
+    <style name="MacroValueStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/_28ssp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+
+    <style name="ActivityTabStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#8E9199</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="MacroLabelStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#E0E0E0</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <style name="MacroDescStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:alpha">0.9</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+</resources>
